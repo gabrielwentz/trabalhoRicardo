@@ -13,7 +13,9 @@ public class Mamifero extends Animal {
     }
 
     public void gerarFilho(){
-        System.out.println("Seu mamífero está tendo um novo filho. ");
+        System.out.println("Seu mamífero está tendo mais um filho. ");
     }
+
+
 
 }
