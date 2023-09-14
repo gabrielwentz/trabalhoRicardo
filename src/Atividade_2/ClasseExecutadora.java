@@ -38,8 +38,10 @@ public class ClasseExecutadora {
                     System.out.println("Você escolheu cachorro.");
                     System.out.println("Digite o nome do seu Cachorro: ");
                     String nomeCachorro = scanner.next();
+                     animal.setNomeAnimal(nomeCachorro);
                     System.out.println("Digite a quantidade de filhos: ");
                     int qtdFilhosC = scanner.nextInt();
+                    mamifero.setQtdFilhos(qtdFilhosC);
                     cachorro.latir();
                     mamifero.gerarFilho();
 
@@ -48,8 +50,10 @@ public class ClasseExecutadora {
                     System.out.println("Você escolheu gato.");
                     System.out.println("Digite o nome do seu Gato: ");
                     String nomeGato = scanner.next();
+                    animal.setNomeAnimal(nomeGato);
                     System.out.println("Digite a quantidade de filhos: ");
                     int qtdFilhosG = scanner.nextInt();
+                    mamifero.setQtdFilhos(qtdFilhosG);
                     gato.miar();
                     mamifero.gerarFilho();
 
@@ -69,8 +73,10 @@ public class ClasseExecutadora {
                     System.out.println("Você escolheu Pardal.");
                     System.out.println("Digite o nome do seu Pardal: ");
                     String nomePardal = scanner.next();
+                    animal.setNomeAnimal(nomePardal);
                     System.out.println("Digite quantas asas seu Pardal terá: ");
                     int qtdAsasP = scanner.nextInt();
+                    aves.setQtdAsas(qtdAsasP);
                     pardal.cantar();
                     aves.voar();
 
@@ -79,8 +85,10 @@ public class ClasseExecutadora {
                     System.out.println("Você escolheu Gavião.");
                     System.out.println("Digite o nome do seu Gavião: ");
                     String nomeGaviao = scanner.next();
+                    animal.setNomeAnimal(nomeGaviao);
                     System.out.println("Digite quantas asas seu Gavião terá: ");
                     int qtdAsasGaviao = scanner.nextInt();
+                    aves.setQtdAsas(qtdAsasGaviao);
                     gaviao.corinthians();
                     aves.voar();
 
