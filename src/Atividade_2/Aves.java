@@ -13,7 +13,9 @@ public class Aves extends Animal{
     }
 
     public void voar(){
-        System.out.println("Sua ave está voando.");
+        System.out.println("Sua ave está voando e possui este número de asas: " + getQtdAsas());
+
+
     }
 
 }

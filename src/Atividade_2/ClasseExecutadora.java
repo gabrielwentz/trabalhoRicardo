@@ -44,6 +44,7 @@ public class ClasseExecutadora {
                     mamifero.setQtdFilhos(qtdFilhosC);
                     cachorro.latir();
                     mamifero.gerarFilho();
+                    animal.chamar();
 
                 } else if (leitura1 == 2) {
 
@@ -56,6 +57,7 @@ public class ClasseExecutadora {
                     mamifero.setQtdFilhos(qtdFilhosG);
                     gato.miar();
                     mamifero.gerarFilho();
+                    animal.chamar();
 
                 } else {
 
@@ -79,6 +81,7 @@ public class ClasseExecutadora {
                     aves.setQtdAsas(qtdAsasP);
                     pardal.cantar();
                     aves.voar();
+                    animal.chamar();
 
                 } else if (leitura2 == 2) {
 
@@ -91,6 +94,7 @@ public class ClasseExecutadora {
                     aves.setQtdAsas(qtdAsasGaviao);
                     gaviao.corinthians();
                     aves.voar();
+                    animal.chamar();
 
                 }
 

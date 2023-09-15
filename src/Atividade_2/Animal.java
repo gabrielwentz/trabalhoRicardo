@@ -14,12 +14,15 @@ public class Animal {
         this.nomeAnimal = nomeAnimal;
     }
 
+    public void chamar(){
+        System.out.println("Nome do seu animal é: " + getNomeAnimal());
+    }
+
 
 
 
 
     }
-
 
 
 

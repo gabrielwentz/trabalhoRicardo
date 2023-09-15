@@ -13,7 +13,7 @@ public class Mamifero extends Animal {
     }
 
     public void gerarFilho(){
-        System.out.println("Seu mamífero está tendo mais um filho. ");
+        System.out.println("Seu mamífero tem esta quantidade de filhos: " + getQtdFilhos());
     }
 
 
